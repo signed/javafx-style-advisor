@@ -107,7 +107,7 @@
         <dependency>
             <groupId>com.github.signed.jvm-protocol-handler</groupId>
             <artifactId>jvm-protocol-handler</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 </project>
