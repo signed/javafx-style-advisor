@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import com.sun.javafx.css.CssError;
 import com.sun.javafx.css.StyleManager;

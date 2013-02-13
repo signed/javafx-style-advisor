@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import com.github.signed.protocols.jvm.JvmProtocolHandler;
 import com.github.signed.protocols.jvm.MemoryDictionary;
@@ -29,9 +29,7 @@ import javafx.util.Callback;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static styling.Family.adapted;
-
-public class CssFun extends Application {
+public class Main extends Application {
 
     private final ObservableList<Exhibit> exhibits;
 
@@ -53,7 +51,7 @@ public class CssFun extends Application {
 
     private Property<Exhibit> exhibitProperty = new SimpleObjectProperty<>();
 
-    public CssFun() {
+    public Main() {
         ExhibitBuilder builder = new ExhibitBuilder();
         Exhibit first = builder.prepareTextArea();
         Exhibit second = builder.prepareToggleButton();
@@ -100,9 +98,9 @@ public class CssFun extends Application {
 
         styleInputs.integrate(stylePad, "style");
         styleInputs.integrate(styleSheetPad, "stylesheet");
-        styleInputs.integrateInto(adapted(splitPane));
+        styleInputs.integrateInto(Family.adapted(splitPane));
 
-        showCase.integrateInto(adapted(splitPane));
+        showCase.integrateInto(Family.adapted(splitPane));
 
         ObservableList<Node> children = splitPane.getItems();
         HBox.setHgrow(children.get(children.size() - 1), Priority.SOMETIMES);

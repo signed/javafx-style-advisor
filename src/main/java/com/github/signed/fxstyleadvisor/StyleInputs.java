@@ -1,10 +1,10 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import javafx.collections.ObservableList;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 
-import static styling.Family.adapted;
+import static com.github.signed.fxstyleadvisor.Family.adapted;
 
 public class StyleInputs {
     private final TabPane tabPane = new TabPane();

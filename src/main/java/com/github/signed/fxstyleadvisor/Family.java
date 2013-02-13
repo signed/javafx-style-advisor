@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import javafx.collections.ObservableList;
 import javafx.scene.Node;

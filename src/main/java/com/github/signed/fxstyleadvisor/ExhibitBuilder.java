@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import button.MoltenToggleButtonBar;
 import javafx.event.ActionEvent;

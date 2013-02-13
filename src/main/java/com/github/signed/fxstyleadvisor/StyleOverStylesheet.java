@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import com.github.signed.protocols.jvm.MemoryDictionary;
 

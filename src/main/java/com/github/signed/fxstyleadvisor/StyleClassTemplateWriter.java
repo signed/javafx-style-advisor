@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import com.google.common.base.Optional;
 import javafx.event.ActionEvent;

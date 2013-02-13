@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 public class DirectlyStyleComponent implements Stylist.PartToStyle {
     private Manican victim;

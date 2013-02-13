@@ -1,4 +1,4 @@
-package styling;
+package com.github.signed.fxstyleadvisor;
 
 import javafx.event.EventHandler;
 import javafx.stage.WindowEvent;
